@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS customer(
+    id SERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    yob INT NOT NULL
+);
